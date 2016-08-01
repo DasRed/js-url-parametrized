@@ -1,0 +1,15 @@
+{
+    "name": "url-parametrized",
+    "homepage": "https://github.com/DasRed/js-url-parametrized",
+    "main": "",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+    }
+}
