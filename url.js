@@ -33,7 +33,7 @@
     }
 
     // prototype
-    UrlParametrized.prototype = Object.create(Base.prototype, {
+    UrlParametrized.prototype = Object.create(Object.prototype, {
         /**
          * @var {Array}
          */
