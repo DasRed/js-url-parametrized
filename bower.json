@@ -1,7 +1,7 @@
 {
     "name": "url-parametrized",
     "homepage": "https://github.com/DasRed/js-url-parametrized",
-    "main": "",
+    "main": "Creates URLs from a parametrized url and an object.",
     "license": "MIT",
     "ignore": [
         "**/.*",
