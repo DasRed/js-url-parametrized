@@ -90,11 +90,11 @@
     /**
      * parse the url with given object
      *
-     * @param {Object}|{Array} values
-     * @param {Object}|{Array} ...
+     * @param {Object|Array} values
+     * @param {...Object|...Array}
      * @returns {String}
      */
-    UrlParametrized.prototype.parse = function () {
+    UrlParametrized.prototype.parse = function (values) {
         var args = Array.prototype.slice.call(arguments);
         var self = this;
 
@@ -123,7 +123,7 @@
         });
 
         // collect values from object
-        var values = this.parameters.reduce(function (acc, parameterOptions) {
+        values = this.parameters.reduce(function (acc, parameterOptions) {
             return args.reduce(function (accArguments, argument) {
                 if (argument[parameterOptions.name] !== undefined) {
                     accArguments[parameterOptions.name] = argument[parameterOptions.name];
