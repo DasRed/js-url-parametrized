@@ -19,7 +19,7 @@
 
     /**
      * @param {String} url
-     * @param {Object} options
+     * @param {Object} [options]
      */
     function UrlParametrized(url, options) {
         this.url = url;
