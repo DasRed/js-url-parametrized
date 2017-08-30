@@ -1,0 +1,16 @@
+{
+  "name": "url-parametrized",
+  "version": "1.0.5",
+  "description": "Creates URLs from a parametrized url and an object.",
+  "main": "url.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasRed/js-url-parametrized.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DasRed/js-url-parametrized/issues"
+  },
+  "homepage": "https://github.com/DasRed/js-url-parametrized#readme"
+}

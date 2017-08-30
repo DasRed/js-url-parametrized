@@ -9,7 +9,5 @@
         "bower_components",
         "test",
         "tests"
-    ],
-    "dependencies": {
-    }
+    ]
 }

@@ -13,6 +13,7 @@ Not optional parameters must be defined if the url should be parsed otherwise an
 ## Install
 ```
 bower install url-parametrized --save
+npm install url-parametrized --save
 ```
 
 ## Usage
