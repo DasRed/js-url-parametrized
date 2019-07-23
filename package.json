@@ -1,6 +1,6 @@
 {
     "name": "url-parametrized",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Creates URLs from a parametrized url and an object.",
     "main": "src/index.js",
     "repository": {
