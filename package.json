@@ -11,6 +11,10 @@
         "build": "rollup -c ./rollup.config.js",
         "prepublishOnly": "npm run build"
     },
+    "files": [
+        "/dist/*",
+        "/src/*"
+    ],
     "author": "",
     "license": "MIT",
     "bugs": {
