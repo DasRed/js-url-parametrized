@@ -21,3 +21,4 @@ let url = new UrlParametrized('https://www.example.com/:paramA/:paramB(/:paramC)
 console.log(url.parse({paramA: 'nuff', paramB: 'narf', paramC: 'rofl'})); // https://www.example.com/nuff/narf/rofl
 console.log(url.parse({paramA: 'nuff', paramB: 'narf'})); // https://www.example.com/nuff/narf
 ```
+
